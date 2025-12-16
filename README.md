@@ -29,6 +29,16 @@ This repository is intended as a **foundational deep learning project**, focusin
 
 ---
 
+## Mathematical Intitution
+
+The ANN minimizes Binary Cross-Entropy loss:
+
+L = -[ylog(y^) + (1-y)log(1-y^)}
+
+This allows the model to output probabilistic , which are more useful than binary predictions in risk-sensitive applications.
+
+---
+
 ## Project Structure
 ANN/
 ├── ANN.ipynb
